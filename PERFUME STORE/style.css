@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+background-image:  url(flowers.jpg);
+background-size: cover;
+background-position: center;
+font-family:  Verdana;
+}
+
+.menu-bar{ 
+background-color:darkmagenta;
+text-align: center;
+}
+.menu-bar ul{
+display: inline-flex;
+list-style: none;
+columns: white;
+}
+.menu-bar ul li{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: white;
+}
+.active, .menu-bar ul li:hover{
+background-color:magenta;
+border-radius: 3px;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left:30%;
+    transform: -50 ,-50;
+}
+.title h1{
+    font-size: 78px;
+    color: white;
+    font-family: serif
+}
+
+.button{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform:translate (-50%,-50%) ;
+}
+.btn{
+    color: beige;
+    padding: 6px,25px;
+    font size: 19px;
+    text-decoration: none;
+    border: 2px solid white;
+
+}
+.btn:hover{
+    background-color: beige;
+    color: black;
+}
+.word{
+    position: absolute;
+    top: 60%;
+    
+    right: 70%;
+    transform: -50 ,-50;
+}
+.word h1{
+    font-size: 78px;
+    color: beige;
+    font-family: Verdanaa
+
+}
+
+
+
+
+
+
+
+
+
